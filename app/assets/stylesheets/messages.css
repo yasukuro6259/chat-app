@@ -10,14 +10,44 @@
 .side-top {
   height: 100px;
   padding: 0px 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name a {
+  font-size:16px;
+  color:#fafafa;
+  background-color:#253141;
+  text-decoration: none;
+}
+
+.create-chat{
+  font-size:10px; 
+}
+/* なぜ分けた？ */
+.create-chat a {
+  color:deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .side-middle {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
 
+.room {
+  padding: 20px 0 40px;
+}
+
+.room a {
+  color:white;
+  text-decoration: none;
+}
 .chat {
   background-color: #ffffff;
   height: 100vh;
