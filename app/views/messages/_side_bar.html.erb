@@ -1,6 +1,8 @@
 <div class="side">
     <div class="side-top">
-      <div class="user-name"><a href="#">TOM</a></div>
+      <div class="user-name">
+        <%= link_to current_user.name , edit_user_path(current_user) %>
+      </div>
       <div class="create-chat"><a href="#">チャットを作成する</a></div>
     </div>
     <div class="side-middle">
