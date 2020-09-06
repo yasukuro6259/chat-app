@@ -1,0 +1,16 @@
+<div class="chat-info">
+  <div class=chat-name-time>
+    <div class="chat-name">
+    <!-- 投稿したユーザー名情報を出力する -->
+      <%= message.user.name%>
+    </div>
+    <div class="chat-time">
+    <!-- 投稿した時刻を出力する -->
+      <%= message.created_at%>
+    </div>
+  </div>
+   <div class="message">
+    <!-- 投稿したメッセージ内容を記述する -->
+    <%= message.content%>
+  </div>
+</div>
