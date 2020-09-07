@@ -117,6 +117,19 @@
   display: flex;
 }
 
+.form {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.form-input {
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
 .message-form{
   height: 50px;
   width: 100%;
